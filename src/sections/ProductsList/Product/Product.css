@@ -1,0 +1,6 @@
+@media (max-width: 628px) {
+    .card-img {
+        max-height: 190px !important;
+        min-height: 125px !important;
+    }
+}

@@ -1,0 +1,126 @@
+.header {
+    background-color: white;
+    position: relative;
+    /* -webkit-box-shadow: 0 0 10px #ddd; */
+    /* -moz-box-shadow: 0 0 10px #ddd; */
+    /* box-shadow: 0 0 10px #ddd; */
+    height: 93px;
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+@media (max-width:768px) {
+    .header .container {
+        flex-direction: column;
+    }
+}
+
+
+    @media (min-width: 1400px) {
+
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl,
+        .container-xxl {
+            max-width: 1334px;
+        }
+    }
+
+    .header .logo {
+        width: 152px;
+        height: 47px;
+        left: 94px;
+        top: 25px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 120%;
+        letter-spacing: 0.005em;
+        color: #F86338;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width: 767px) {
+        .header .logo {
+            width: 100%;
+            height: 45px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .header .main-nav {
+            justify-content: space-between;
+            flex-direction: row;
+            width: 70%;
+            margin-left: 97px;
+            display: flex;
+        }
+    }
+
+
+    .header .main-nav {
+        display: flex;
+    }
+
+    @media (max-width:768px) {
+        .header .main-nav {
+            height: 49%;
+        }
+    }
+
+    @media (max-width:768px) {
+        .header .main-nav li {
+            height: 50px !important;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .header .main-nav {
+            margin: auto;
+        }
+    }
+
+    .header .main-nav>li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 72px;
+        position: relative;
+        color: black;
+        padding: 0 30px;
+        overflow: hidden;
+        font-size: 18px;
+        transition: var(--main-transition);
+    }
+
+    .header .main-nav>li>img {
+        padding-right: 9px;
+    }
+
+    .header .main-nav>li>a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: 0.005em;
+        color: #11142D;
+    }
+
+    @media (max-width: 767px) {
+        .header .main-nav>li {
+            padding: 10px;
+            font-size: 14px;
+            height: 40px;
+        }
+    }

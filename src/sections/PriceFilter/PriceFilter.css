@@ -1,0 +1,57 @@
+.price-header {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    align-content: space-between;
+}
+
+.price-header h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+@media( max-width: 768px){
+    .price-header h3{
+        font-size: 19px;
+    }
+}
+
+.price-input input {
+    width: 100%;
+}
+
+.price-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-footer h3 {
+    margin-bottom: 24px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.price-footer h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    text-align: right;
+}

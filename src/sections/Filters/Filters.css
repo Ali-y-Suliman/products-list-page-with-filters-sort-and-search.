@@ -1,0 +1,33 @@
+.title-filter {
+    border: 1px solid #11142D;
+    border-radius: 4px;
+    width: 100%;
+    padding-left: 30px;
+    background: #E5E5E5;
+    height: 56px;
+}
+
+@media (max-width: 768px) {
+    .title-filter{
+        padding-left: 10px;
+    }
+    .div-filter::before {
+        right: 4%;
+    }
+}
+
+.div-filter {
+    background: #E5E5E5;
+    position: relative;
+}
+
+.div-filter::before {
+    font-family: "Font Awesome 5 Free";
+    content: url('./../../assets/images/search.png');
+    right: 2%;
+    color: #9A9AB0;
+    position: absolute;
+    font-weight: 900;
+    top: 55%;
+    transform: translatey(-50%);
+}

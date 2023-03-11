@@ -1,0 +1,13 @@
+.div-sort {
+    margin-top: 40px;
+}
+
+.div-sort .form-select{
+    border: 1px solid #11142D;
+    border-radius: 4px;
+    width: 100%;
+    padding-left: 30px;
+    background: #E5E5E5;
+    height: 56px;
+    color: #737376;
+}

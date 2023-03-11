@@ -1,0 +1,111 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+@media (max-width: 545px) {
+    .list {
+        flex-direction: row !important;
+    }
+
+}
+
+@media (max-width: 391px) {
+    .list {
+        flex-direction: column !important;
+    }
+}
+
+.card-form {
+    margin-bottom: 18.33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position: relative;
+    width: 400px !important;
+    min-height: 390px;
+}
+
+@media (max-width: 768px) {
+    .card-form {
+        width: 338px !important;
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 628px) {
+    .card-form {
+        width: 240px !important;
+        max-height: 290px !important;
+        min-height: 0px !important;
+    }
+}
+
+.card-img-top {
+    /* height: 190px; */
+    margin-top: 12px;
+}
+
+.card-rate {
+    color: #F86338;
+}
+
+.card-category {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.008em;
+    color: #9A9AB0;
+}
+
+.card-price {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: right;
+    letter-spacing: 0.005em;
+    color: #F3692E;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.card-title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+@media (max-width: 628px) {
+    .card-title {
+        font-size: 19px;
+        line-height: 100%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .list {
+        align-content: center;
+        flex-direction: column;
+    }
+}
