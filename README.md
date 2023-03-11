@@ -17,7 +17,7 @@ the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
-##Description:
+## Description:
 1- When you run the Project, you will see list of products with filters, sort and search.
 
 2- Filters:
@@ -31,4 +31,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
  4.2- Price
  4.3- Rate
 
-##Note: You can apply all the filters, search and sort at the same time to get a specifics resuls. 
+## Note: You can apply all the filters, search and sort at the same time to get a specifics resuls. 
